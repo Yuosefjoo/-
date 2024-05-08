@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مستشار المزاج</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body dir="rtl">
+    <div class="container">
+        <h1>مستشار المزاج</h1>
+        <label for="name">ادخل اسمك:</label>
+        <input type="text" id="name" placeholder="اسمك">
+        <label for="mood">اختر مزاجك:</label>
+        <select id="mood">
+            <option value="سعيد">سعيد</option>
+            <option value="حزين">حزين</option>
+            <option value="غاضب">غاضب</option>
+            <option value="هادئ">هادئ</option>
+            <option value="متحمس">متحمس</option>
+        </select>
+        <button onclick="getAdvice()">احصل على النصيحة</button>
+        <p id="advice"></p>
+    </div>
+    <footer>مع تحيات التركي جوو</footer>
+    <script src="script.js"></script>
+</body>
+</html>
